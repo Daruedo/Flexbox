@@ -1,0 +1,43 @@
+.mainHeader .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainHeader-nav {
+    display: flex;
+}
+
+/* .mainContent .container {
+
+} */
+
+.mainFooter-sponsors .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainFooter-sponsors-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin-right: 5%;
+    
+}
+
+.mainFooter-contactForm {
+    width: 25%;
+}
+
+.mainFooter-contactForm-fieldset {
+    display: flex;
+}
+
+.mainFooter-navMap-list {
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: column wrap;
+    height: 255px;
+}
