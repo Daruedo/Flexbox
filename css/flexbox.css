@@ -41,3 +41,82 @@
     flex-flow: column wrap;
     height: 255px;
 }
+
+.mainContent-lecture {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainContent-lecture-link {
+    width: 23%;
+}
+
+.videoAbout .container {
+    display: flex;
+}
+
+.videoAbout-about {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.videoAbout-about-list {
+    flex-grow: 1;
+}
+
+/* mobile */
+@media(max-width: 1028px) {
+    .mainHeader-nav {
+        flex-direction: column;
+    }
+
+    .mainHeader .container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .mainContent-lecture {
+        flex-direction: column;
+    }
+
+    .mainContent-lecture-link {
+        width: 100%;
+    }
+
+    .mainFooter-navMap-list {
+        height: auto;
+    }
+
+    .mainFooter-sponsors .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainFooter-sponsors-list {
+        margin: 0;
+        width: 100%;
+    }
+
+    .mainFooter-contactForm {
+        width: 100%;
+    }
+
+    .mainFooter-contactForm-fieldset {
+        justify-content: center;
+    }
+
+    .mainHeader-nav-link-app {
+        order: -1;
+    }
+
+    .videoAbout .container {
+        flex-direction: column;
+    }
+
+    .videoAbout-video {
+        margin: 0 auto;
+    }
+}
